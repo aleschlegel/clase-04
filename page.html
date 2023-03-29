@@ -18,8 +18,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js" integrity="sha512-3RlxD1bW34eFKPwj9gUXEWtdSMC59QqIqHnD8O/NoTwSJhgxRizdcFVQhUMFyTp5RwLTDL0Lbcqtl8b7bFAzog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
             var palabra_pasada = "Togemon";
-            var elColor;
-            var elSlider;
+            var elColor = #251CEE;
+            var elSlider = 10;
 
             function setup() {
                 var title = select("header");
@@ -47,7 +47,7 @@
             }
 
             function borrador() {
-                //aquí también falta algo
+                background(random(0,255),random(0,255),random(0,255))
             }
 
             function EstaNoEs(){
